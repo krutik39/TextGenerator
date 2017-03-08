@@ -20,11 +20,19 @@ def generator():
         letter1 = random.choice(letters)
     else:
         letter1=letter_input_1
+    if letter_input_2 =='v':
+        letter2 = random.choice(vowels)
+    elif letter_input_2=='c':
+        letter2 = random.choice(consonants)
+    elif letter_input_2=='l':
+        letter2 = random.choice(letters)
+    else:
+        letter2=letter_input_2
 
 
 
 
-        
+
 
     letter3 = random.choice(string.ascii_lowercase)
     name = letter1+letter2+letter3
